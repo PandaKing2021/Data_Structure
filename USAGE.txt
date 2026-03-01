@@ -1,0 +1,29 @@
+DATA STRUCTURES IMPLEMENTATION - USAGE GUIDE
+===========================================
+
+BUILD AND TEST:
+---------------
+Build all: build_all.bat
+Quick test: quick_test.bat
+
+INDIVIDUAL MODULES:
+-------------------
+gcc -I. -o test_seq_list.exe src/linear_list/seq_list.c tests/linear_list/test_seq_list.c
+gcc -I. -o test_sort.exe src/sort/*.c tests/sort/test_sort.c
+
+IMPLEMENTED MODULES:
+--------------------
+1. Linear List: seq_list, link_list, double_link_list
+2. Stack/Queue: seq_stack, link_stack, seq_queue, link_queue
+3. Tree: binary_tree, huffman_tree, heap, disjoint_set
+4. Graph: matrix_graph, adj_list_graph
+5. Search: binary_search_tree, avl_tree, hash_table
+6. Sort: insert_sort, bubble_sort, selection_sort, shell_sort, quick_sort, heap_sort, merge_sort, radix_sort
+
+TESTING INTERACTIVE MODULES:
+---------------------------
+- Binary Tree(InOrder): enter "1 2 4 -1 -1 5 -1 -1 3 -1 -1"
+- Huffman Tree: enter number of weights, then weights
+- Graph: enter vertex count, edge count, vertices, then edges
+
+ALL CODE IS IN ENGLISH.
