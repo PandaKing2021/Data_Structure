@@ -194,14 +194,3 @@ gcc -I. -o test_sort.exe src/sort/*.c tests/sort/test_sort.c
 test_sort.exe
 ```
 
----
-
-## Implementation Notes
-
-- All code comments are in English
-- Pure C implementation (no C++ features)
-- Manual memory management with malloc/free
-- Error handling: returns 0 for failure, 1 for success
-- Sorting algorithms use 0-based array indexing
-
-- Graph algorithms assume vertex indices start from 0
