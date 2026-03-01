@@ -1,6 +1,6 @@
 # Data Structures Implementation
 
-This project implements common data structures and algorithms based on the 2025 Computer Science Professional Foundation Exam syllabus using pure C language.
+This project implements common data structures and algorithms based on the Computer Science Professional Foundation Exam syllabus using pure C language.
 
 ## Directory Structure
 
@@ -203,4 +203,5 @@ test_sort.exe
 - Manual memory management with malloc/free
 - Error handling: returns 0 for failure, 1 for success
 - Sorting algorithms use 0-based array indexing
+
 - Graph algorithms assume vertex indices start from 0
